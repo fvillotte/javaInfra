@@ -3,38 +3,93 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="icon" type="image/png" href="img/eseo.png" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
     <script type="text/javascript" src="js/reservation.js"></script>
 
-
-    <title>Reseoroom</title>
+    <title>Mes réservations</title>
   </head>
   
+  <body>
 
-  <body class="text-center">
-    <form class="form-signin" action="salle.html">
-      <img src="img/eseo.png" width="100" height="100">
-      
-      <h1 class="font-weight-normal">Reseoroom</h1>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #5a4d9b;">
+        <i class="material-icons" style="color: white; font-size: 30px; position: absolute;" onclick="history.back()">arrow_back</i>
+        <div class="navbar-inner text-center" style="width: 100%;">
+          <span id="title" class="navbar-brand" style="margin-left: 16px; cursor: default">Mes réservations</span>
+        </div>
+    </nav>
 
-      <input type="email" name="email" class="form-control" placeholder="E-mail ESEO"  style="margin-top: 32px;" autofocus required>
-      <input type="password" name="mdp" class="form-control" placeholder="Mot de passe"  style="margin-top: 8px;" required>
-        
-      <button class="btn btn-primary btn-block" type="submit" name="action" style="margin-top: 16px;">Connexion</button>
-      <button class="btn btn-outline-secondary btn-block" type="submit" name="action" >Inscription</button>
+   <main style="padding: 8px; padding-top: 50px; padding-bottom: 0px; width: 50%; min-width: 500px; max-width: 1000px; margin: auto;">
 
-      <p class="text-muted" style="margin-top: 32px;">
-        Projet infra et Java I2S7
-      </br>
-        BRIN Luca • TEENSMA Kelvin • VILLOTTE François • ROBIN Alexandre • RICHARD Thomas • THUIN Axel
-      </p>
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h6>
+      </div>
+    </div>
 
-    </form>
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h6>
+      </div>
+    </div>
+
+    <h5 style="margin-top: 32px;">Lundi 18 Mars</h5>
+
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h6>
+      </div>
+    </div>
+
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h6>
+      </div>
+    </div>
+
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h6>
+      </div>
+    </div>
+
+    <h5 style="margin-top: 32px;">Lundi 18 Mars</h5>
+
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h5>
+      </div>
+    </div>
+
+    <div class="card" style="margin: 16px; border-color: #5a4d9b; cursor: pointer">
+      <div class="card-body" style="width: 95%; white-space: nowrap; overflow: hidden;">
+        <span style="color: #5a4d9b; display: inline-block;">12:05-14:30</span>
+        <h6 style="margin-left: 16px; margin-bottom: 0px; display: inline-block;">Voilà onqsdf qsdfq sdfq sdfq sd fqs df s df qs d qs dfsqdfsd fq sdf qs df qsdf qsd fq sdf qsd f qsdf sq fdq sdf qsd f qsd f qsd est là tsé</h5>
+      </div>
+    </div>
+
+     
+    </div>
+
+    <button type="button" onclick=newReservation() class="btn btn-lg btn-primary" style="bottom: 0px; right: 0px; position: fixed; margin: 32px; border-radius: 32px; background-color: #5a4d9b; border-color: #5a4d9b;">Nouvelle réservation</button>
 
   </body>
+
 </html>
 

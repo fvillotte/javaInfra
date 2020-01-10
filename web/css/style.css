@@ -6,19 +6,6 @@ body {
     height: 100%;
 }
 
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    margin: auto;
-}
-
-main {
-    width: 80%;
-    min-width: 500px;
-    max-width: 1000px;
-    margin: auto;
-}
-
 svg {
     width: 100%;
     height: auto;
